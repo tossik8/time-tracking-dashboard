@@ -27,13 +27,25 @@ main{
     display: flex;
     flex-direction: column;
     background-color: hsl(246, 80%, 60%);
-    padding: 1.5rem;
+    padding: 1.5rem 4.7rem 4.7rem 1.5rem;
     border-radius: 1rem;
+    gap: 2rem;
 }
 .person-image{
     width: 5rem;
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 5rem;
+}
+.title{
+    color: hsl(236, 100%, 87%);
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: min-content;
+}
+.person-name{
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
 }
 .stats-options-div{
     display: flex;
