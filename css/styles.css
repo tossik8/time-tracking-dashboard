@@ -17,7 +17,7 @@ main{
 }
 .panel{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 #person{
     background-color: hsl(235, 46%, 20%);
@@ -63,13 +63,36 @@ main{
 }
 #statistics{
     display: grid;
-    width: 45rem;
-    grid-template: repeat(2, auto) / repeat(3, auto);
-    gap: 1rem;
+    width: 100%;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 1.8rem;
 }
 article{
     border-radius: 1rem;
     width: 100%;
+    position: relative;
+    min-width: 16rem;
+}
+.image-div{
+    overflow: hidden;
+    position: absolute;
+    right: 5%;
+}
+.article-image{
+    position: relative;
+    top: -0.3rem;
+}
+.section-info{
+    position: relative;
+    background-color: hsl(235, 46%, 20%);
+    top: 3rem;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    height: 10.46rem;
+    cursor: pointer;
+}
+.section-info:hover{
+    filter: brightness(140%);
 }
 #work-article{
     background-color: hsl(15, 100%, 70%);
@@ -96,6 +119,18 @@ article{
 }
 .article-title{
     color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.this-period{
+    font-size: 3rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    margin-top: 1.5rem;
+}
+.last-period{
+   color: hsl(236, 100%, 87%);
+   margin-top: 0.4rem;
 }
 .attribution {
     font-size: 11px;
