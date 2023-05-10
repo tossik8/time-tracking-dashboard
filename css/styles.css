@@ -9,9 +9,26 @@ body{
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Rubik', sans-serif;
+    background-color: hsl(226, 43%, 10%);
 }
 main{
     max-width: 100rem;
+}
+#person{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 1rem;
+}
+.person-info{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(246, 80%, 60%);
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+}
+.person-image{
+    width: 5rem;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 5rem;
 }
 .attribution {
     font-size: 11px;
