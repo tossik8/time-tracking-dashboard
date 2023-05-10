@@ -22,6 +22,7 @@ main{
 #person{
     background-color: hsl(235, 46%, 20%);
     border-radius: 1rem;
+    max-height: 28rem;
 }
 .person-info{
     display: flex;
@@ -80,6 +81,7 @@ article{
 .image-div{
     overflow: hidden;
     position: absolute;
+    height: 3rem;
     right: 5%;
 }
 .article-image{
@@ -87,13 +89,12 @@ article{
     top: -0.3rem;
 }
 .section-info{
-    position: relative;
     background-color: hsl(235, 46%, 20%);
-    top: 3rem;
     border-radius: 1rem;
     padding: 1.2rem;
-    height: 10.46rem;
     cursor: pointer;
+    margin-top: 3rem;
+    height: 78%;
 }
 .section-info:hover{
     filter: brightness(140%);
@@ -149,4 +150,9 @@ article{
 }
 .attribution a {
     color: hsl(228, 100%, 77%);
+}
+@media screen and (max-width: 1130px) {
+    #statistics{
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    }
 }
