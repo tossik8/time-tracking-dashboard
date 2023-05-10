@@ -52,14 +52,18 @@ main{
     flex-direction: column;
     gap: 1rem;
     padding: 1.5rem;
+}
+.option-button{
+    background: transparent;
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    padding: 0;
     color: hsl(235, 45%, 61%);
 }
-.option{
-    cursor: pointer;
-    width: fit-content;
-}
-.option:hover{
+.option-button:hover, .option-button:focus-visible{
     color: hsl(236, 100%, 87%);
+    outline: none;
 }
 #statistics{
     display: grid;
@@ -116,6 +120,12 @@ article{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.more-button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 .article-title{
     color: hsl(0, 0%, 100%);
