@@ -61,6 +61,42 @@ main{
 .option:hover{
     color: hsl(236, 100%, 87%);
 }
+#statistics{
+    display: grid;
+    width: 45rem;
+    grid-template: repeat(2, auto) / repeat(3, auto);
+    gap: 1rem;
+}
+article{
+    border-radius: 1rem;
+    width: 100%;
+}
+#work-article{
+    background-color: hsl(15, 100%, 70%);
+}
+#play-article{
+    background-color: hsl(195, 74%, 62%);
+}
+#study-article{
+    background-color: hsl(348, 100%, 68%);
+}
+#exercise-article{
+    background-color: hsl(145, 58%, 55%);
+}
+#social-article{
+    background-color: hsl(264, 64%, 52%);
+}
+#self-care-article{
+    background-color: hsl(43, 84%, 65%);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article-title{
+    color: hsl(0, 0%, 100%);
+}
 .attribution {
     font-size: 11px;
     text-align: center;
