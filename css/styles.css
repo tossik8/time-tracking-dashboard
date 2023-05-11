@@ -62,7 +62,7 @@ main{
     padding: 0;
     color: hsl(235, 45%, 61%);
 }
-.option-button:hover, .option-button:focus-visible{
+.option-button:hover, .option-button:focus-visible, .active{
     color: hsl(236, 100%, 87%);
     outline: none;
 }
