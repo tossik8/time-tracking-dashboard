@@ -21,7 +21,7 @@ const generateValues = (periodName, period) => {
 window.onload = () => {
     generateValues("Last Week", "weekly");
     document.getElementsByClassName("option-button")[0].addEventListener("click", (e) => {
-        generateValues("Previous Day", "daily");
+        generateValues("Yesterday", "daily");
         removeActive();
         e.target.classList.add("active");
     });
