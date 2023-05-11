@@ -72,7 +72,7 @@ main{
     gap: 1.8rem;
 }
 article{
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 1.2rem 1.2rem;
     width: 100%;
     position: relative;
     min-width: 16rem;
@@ -93,7 +93,6 @@ article{
     padding: 1.2rem;
     cursor: pointer;
     margin-top: 3rem;
-    height: 78%;
 }
 .section-info:hover{
     filter: brightness(140%);
@@ -191,14 +190,15 @@ article{
     .person-name{
         font-size: 1.75rem;
     }
+    .stats-options-div{
+        flex-direction: row;
+        justify-content: space-between;
+    }
     #statistics{
-        grid-template: repeat(6, 1fr) / 1fr;
+        grid-template: repeat(6, auto) / 1fr;
     }
     article{
         min-width: 0;
-    }
-    .section-info{
-        height: 70%;
     }
     .numbers-div{
         margin-top: 0.5rem;
