@@ -197,6 +197,9 @@ article{
     article{
         min-width: 0;
     }
+    .section-info{
+        height: 70%;
+    }
     .numbers-div{
         margin-top: 0.5rem;
         flex-direction: row;
